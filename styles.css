@@ -1,0 +1,14 @@
+h1{
+	background-color: cyan;
+	border: 3px solid black;
+	padding: 10px;
+	margin: -8px;
+}
+
+h1.nowhere{
+	border: 3px solid red;
+}
+
+pre{
+	font-family: verdana;
+}
