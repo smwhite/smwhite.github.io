@@ -77,6 +77,36 @@ a:active {
     background-color: transparent;
     text-decoration: underline;
 }
+
+a.title:link {
+    color: black;
+	border: none;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a.title:visited {
+    color: black;
+	border: none;
+    background-color: transparent;
+	text-decoration: none;
+
+}
+
+a.title:hover {
+    color: black;
+	border: none;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a.title:active {
+    color: black;
+	border: none;
+    background-color: transparent;
+    text-decoration: none;
+}
+
 a.picture:link {
     color: black; 
     background-color: transparent; 
