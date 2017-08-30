@@ -10,9 +10,9 @@ div.head{
 }
 
 div.navbar{
-	background-color: white;
+	background-color: grey;
 	border-top:2px solid black;
-	padding: 5px;
+	padding: 2px;
 	margin: auto;
 	width: 95%;
 	text-align: left;
@@ -50,9 +50,8 @@ pre{
 /* start link styles*/
 a:link {
     color: white; 
-    background-color: cyan; 
+    background-color: grey; 
 	text-decoration: none;
-	border: 1px solid black;
 	text-align: center;
 	padding: 2px;
 }
@@ -61,7 +60,6 @@ a:visited {
     color: white;
     background-color: grey;
 	text-decoration: none;
-	border: 1px solid black;
 	text-align: center;
 	padding: 2px;
 }
