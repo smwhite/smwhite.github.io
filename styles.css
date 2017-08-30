@@ -1,34 +1,46 @@
-h1{
-	
-	
-}
 
 div.head{
-	background-color: cyan;
+	background-color: white;
 	border: 3px solid black;
 	padding: 10px;
 	margin: auto;
 	width: 50%;
-	text-align: center;
+	text-align: left;
+	border-radius: 25px;
+}
+
+div.navbar{
+	background-color: white;
+	border-top:2px solid black;
+	padding: 5px;
+	margin: auto;
+	width: 95%;
+	text-align: left;
+	font-size: 18px;
 	
 }
+
 
 div.body{
-	background-color: cyan;
+	background-color: white;
 	border: 3px solid black;
 	padding: 10px;
 	margin: auto;
 	width: 50%;
 	text-align: center;
-	
+	border-radius: 25px;
 }
-
-h1.nowhere{
-	border: 3px solid red;
-}
-
-body{
+div.foot{
 	background-color: white;
+	border: 3px solid black;
+	padding: 10px;
+	margin: auto;
+	width: 50%;
+	text-align: center;
+	border-radius: 25px;
+}
+body{
+	background-color: cyan;
 	text-align: center;
 	
 }
@@ -37,21 +49,27 @@ pre{
 }
 /* start link styles*/
 a:link {
-    color: black; 
-    background-color: transparent; 
-    text-decoration: underline;
+    color: white; 
+    background-color: cyan; 
+	text-decoration: none;
+	border: 1px solid black;
+	text-align: center;
+	padding: 2px;
 }
 
 a:visited {
-    color: black;
-    background-color: transparent;
-    text-decoration: underline;
+    color: white;
+    background-color: grey;
+	text-decoration: none;
+	border: 1px solid black;
+	text-align: center;
+	padding: 2px;
 }
 
 a:hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
+    color: grey;
+    background-color: white;
+    text-decoration: none;
 }
 
 a:active {
