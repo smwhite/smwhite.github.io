@@ -3,11 +3,11 @@ function hidediv() {
     if (x.style.display === 'none')
 	{
         x.style.display = 'block';
-    } 
+	} 
 	else 
 	{
         x.style.display = 'none';
-    }
+	}
 }
 
 
@@ -16,9 +16,9 @@ function colordiv() {
     if (x.style.backgroundColor === 'blue')
 	{
         x.style.backgroundColor = 'red';
-    } 
+	} 
 	else 
 	{
         x.style.backgroundColor = 'blue';
-    }
+	}
 }
