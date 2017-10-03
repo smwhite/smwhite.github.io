@@ -22,3 +22,4 @@ function colordiv() {
         x.style.backgroundColor = 'blue';
 	}
 }
+
