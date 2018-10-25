@@ -1,19 +1,19 @@
 
-
-*{
+/* Wrapper */
+wrapper{
+	height: 100%;
 	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
-
-
-
-/* Wrapper */
 
 	.wrapper {
+		height: 100%;
 		position: relative;
+		
 	}
 
 		.wrapper > .inner {
@@ -24,19 +24,23 @@
 
 
 		.wrapper.alt {
+			height: 100%;
 			background-color: #00ffff;
 		}
 
 		.wrapper.style1 {
+			height: 100%;
 			background-color: #00ffff;
 		}
 		
 		.wrapper.style2 {
+			height: 100%;
 			background-color: #0066ff;
 		}
 
 
 		.wrapper.style3 {
+			height: 100%;
 			background-color: #006699;
 		}
 
@@ -82,6 +86,7 @@
 /* Intro */
 
 	#intro {
+		height: 100%;
 		background-attachment: fixed;
 		background-image: url("images/intro.svg");
 		background-position: top right;

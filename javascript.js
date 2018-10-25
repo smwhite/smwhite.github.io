@@ -1,25 +1,19 @@
-function hidediv() {
-    var x = document.getElementById('block1');
-    if (x.style.display === 'none')
-	{
-        x.style.display = 'block';
-	} 
-	else 
-	{
-        x.style.display = 'none';
-	}
-}
+$(document).ready(function(){
+	// Add smooth scrolling to all links
+	$("a").on('click', function(event){
+		// Check that something is there
+		if (this.hash !== "") {
+			// stop normal scroll
+			event.preventDefault();
 
-
-function colordiv() {
-    var x = document.getElementById('block1');
-    if (x.style.backgroundColor === 'blue')
-	{
-        x.style.backgroundColor = 'red';
-	} 
-	else 
-	{
-        x.style.backgroundColor = 'blue';
-	}
-}
+			var hash = this.hash;
+			
+			// Using jQuery's animate() method to add smooth page scroll
+			$('html, body,wrapper,sidbar').animate({scrollTop: $(hash).offset().top}, 800, function(){
+				// Add hash (#) to URL 
+				window.location.hash = hash;
+			});
+		} 
+	});
+});
 
