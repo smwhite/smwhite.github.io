@@ -1,3 +1,5 @@
+
+// smooth scroll
 $(document).ready(function(){
 	// Add smooth scrolling to all links
 	$("a").on('click', function(event){
@@ -9,7 +11,7 @@ $(document).ready(function(){
 			var hash = this.hash;
 			
 			// Using jQuery's animate() method to add smooth page scroll
-			$('html, body,wrapper,sidbar').animate({scrollTop: $(hash).offset().top}, 800, function(){
+			$('html, body').animate({scrollTop: $(hash).offset().top}, 800, function(){
 				// Add hash (#) to URL 
 				window.location.hash = hash;
 			});
