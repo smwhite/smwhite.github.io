@@ -18,25 +18,41 @@ body,header{
 #intro{
 	background-color: #00ffff;
 	height:100vh;
-	padding: 2.5em 2.5em 0.5em 2.5em 
+	padding: 10em 5em 0.5em 5em ;
+	font-weight: bold;
+	font-size: 1em;
 	}
+	
+h1{
+	color: white;
+	font-size: 5em;
+}
 
 #AboutMe{
 	background-color: #0066ff;
 	height:100vh;
-	padding: 2.5em 2.5em 0.5em 2.5em 
+	padding: 2.5em 2.5em 0.5em 2.5em;
 	}
 	
 #Projects{
 	background-color: #006699;
 	height:100vh;
-	padding: 2.5em 2.5em 0.5em 2.5em 
+	padding: 2.5em 2.5em 0.5em 2.5em;
 	}
+	
+#ProjectsTable,td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+#ProjectsTableSection{
+	padding: 2.5em 2.5em 0.5em 2.5em;
+}
 	
 #ContactMe{
 	background-color: #00ffff;
 	height:100vh;
-	padding: 2.5em 2.5em 0.5em 2.5em 
+	padding: 2.5em 2.5em 0.5em 2.5em; 
 	}
 	
 
@@ -51,7 +67,7 @@ body,header{
 
 
 #sidebar {
-	padding: 2.5em 2.5em 0.5em 2.5em ;
+	padding: 15em 2.5em 0.5em 2.5em ;
 	background: #666666;
 	cursor: default;
 	height: 100vh;
@@ -66,6 +82,7 @@ body,header{
 	vertical-align: middle;
 	line-height: 50px;
 	}
+	
 ul{
 	list-style: none;
 }
