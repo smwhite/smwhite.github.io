@@ -17,10 +17,10 @@
 				<div>
 					<nav>
 						<ul>
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#AboutMe">About Me</a></li>
-							<li><a href="#Projects">Projects</a></li>
-							<li><a href="#ContactMe">Contact Me</a></li>
+							<a href="#intro"><li>Welcome</li></a>
+							<a href="#AboutMe"><li>About Me</li></a>
+							<a href="#Projects"><li>Projects</li></a>
+							<a href="#ContactMe"><li>Contact Me</li></a>
 						</ul>
 					</nav>
 				</div>
@@ -29,21 +29,21 @@
 		<!-- wrapper -->
 			<div id="wrapper">
 				<!-- Welcome -->
-					<section id="intro" class="wrapper style1">
+					<section id="intro">
 						<div>
 							<h1>Shawn White</h1>
-							<p>Welcome to my site. This is a place for me to show off/practice my web dev skills
+							<p id="p1">Welcome to my site. This is a place for me to show off/practice my web dev skills
 							   and to talk about projects I have worked on or am currently working on.</p>
 						</div>
 					</section>
 
 				<!-- About Me -->
-					<section id="AboutMe" class="wrapper style2">
+					<section id="AboutMe">
 						<section>
 							<div class="content">
 								<div class="inner">
 									<h2>About Me</h2>
-									<p>I am Shawn White(not the snowboarder) and I am currently an IT Technician for Eldorado Resorts Inc. I gratuated from UNR in 2016
+									<p id="p2">I am Shawn White(not the snowboarder) and I am currently an IT Technician for Eldorado Resorts Inc. I gratuated from UNR in 2016
 										with a bachelor's degree in computer science and engineering. I love working with computers and am fascinated by technology in 
 										general. Below you can find a copy of my resume but because this is being posted on a public site my address, phone number, and 
 										email will be left out. If you are someone who has randomly stumbled upon this page and wish to contact me please use the "Contact Me"
@@ -54,28 +54,55 @@
 					</section>
 
 				<!-- Projects -->
-					<section id="Projects" class="wrapper style3">
+					<section id="Projects">
 						<div class="inner">
 							<h2>Projects</h2>
 							<p>Here is an overview of projects I've worked on in the past or am currently working on. This section will be pretty light currently as most
 								projects I've worked on I don't have code or a working version of it and others should never be viewed by anyone because of how bad or unfinished
 								they are.</p>
 							<div id="ProjectsTableSection">
-								
+								<div id="ProjectOne">
+									<p>This Website</p>
+								</div>
+								<div id="ProjectTwo">
+									<p>Super Marble Blast Not so Ultra</p>
+								</div>
+								<div id="ProjectThree">
+									<p>Simplex Game Sovler</p>
+								</div>
 							</div>
-							<ul class="actions">
-								<li><a href="" class="button">Learn more</a></li>
-							</ul>
 						</div>
 					</section>
 
 				<!-- Contact Me -->
-					<section id="ContactMe" class="wrapper style1">
+					<section id="ContactMe">
 						<div class="inner">
 							<h2>Contact Me</h2>
 							<p>If you are interested in contacting me feel free to use the form below. Fair warning though this web page isn't meant to be viewed by random
 								people so if you are viewing this page I assume you already have my contact information. That being said the form below is more of a proof of
 								concept and the email it goes to will not be regularly monitored.</p>
+								<!-- wufoo form -->
+								<div id="wufoo-z4bw4jl1ewc7zt">
+									Fill out my <a href="https://swhite269.wufoo.com/forms/z4bw4jl1ewc7zt">online form</a>.
+								</div>
+								<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/partners/">Wufoo integrations</a> and get your data to your favorite apps.</div>
+								<script type="text/javascript">var z4bw4jl1ewc7zt;(function(d, t) {
+									var s = d.createElement(t), options = {
+									'userName':'swhite269',
+									'formHash':'z4bw4jl1ewc7zt',
+									'autoResize':true,
+									'height':'520',
+									'async':true,
+									'host':'wufoo.com',
+									'header':'show',
+									'ssl':true};
+									s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+									s.onload = s.onreadystatechange = function() {
+										var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+										try { z4bw4jl1ewc7zt = new WufooForm();z4bw4jl1ewc7zt.initialize(options);z4bw4jl1ewc7zt.display(); } catch (e) {}};
+										var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+									})(document, 'script');
+								</script>
 							
 						</div>
 					</section>
@@ -83,7 +110,7 @@
 			</div>
 
 		<!-- Footer -->
-			<footer id="footer" class="wrapper style1">
+			<footer id="footer">
 				<div class="inner">
 					<ul class="menu">
 					<p> This page is hosted using <a href="https://pages.github.com/">github pages</a>. </p>
