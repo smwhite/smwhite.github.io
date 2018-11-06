@@ -13,6 +13,7 @@ body,header{
 	border: 0;
 	font-size: 100%;
 	vertical-align: baseline;
+	margin-left: 17vw;
 }
 
 #intro{
@@ -53,12 +54,12 @@ h2{
 #Projects{
 	background-color: #006699;
 	height:100vh;
-	padding: 2.5em 2.5em 0.5em 2.5em;
+	padding: 5em 5em 0.5em 5em ;
 	}
 	
 h3{
 	color: black;
-	font-size: 5em;
+	font-size: 3em;
 }
 	
 #ProjectsTable,td{
@@ -72,20 +73,10 @@ h3{
 	
 #ContactMe{
 	background-color: #00ffff;
-	height:90vh;
-	padding: 2.5em 2.5em 0.5em 2.5em; 
+	height:85vh;
+	padding: 5em 5em 0.5em 5em ;
 	}
 	
-
-#sidebar + #wrapper {
-		margin-left: 22em;
-	}
-
-
-#sidebar + #wrapper + #footer {
-		margin-left: 22em;
-	}
-
 
 #sidebar {
 	padding: 15em 2.5em 0.5em 2.5em ;
@@ -98,11 +89,16 @@ h3{
 	position: fixed;
 	text-align: right;
 	top: 0;
-	width: 18em;
+	width: 15vw;
 	z-index: 10000;
 	vertical-align: middle;
 	line-height: 50px;
 	}
+	
+footer{
+	margin-left: 17vw;
+	padding-left: 2.5em;
+}
 	
 ul{
 	list-style: none;
@@ -124,13 +120,13 @@ li:hover{
 
 /*links*/
 
-a:link,a:visited{
+a.sidebar:link,a.sidebar:visited{
 	color: rgb(255,255,255,0.5);
 	text-decoration: none;
 	
 } 
 
-a:hover{
+a.sidebar:hover{
 	color: white;
 	text-decoration: none;
 	
