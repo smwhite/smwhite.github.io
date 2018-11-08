@@ -55,8 +55,7 @@ h2{
 /******************		Projects					***************************/	
 #Projects{
 	background-color: #006699;
-	height:100vh;
-	padding: 5em 5em 0.5em 5em ;
+	padding: 5em 5em 5em 5em ;
 	}
 	
 h3{
@@ -83,7 +82,15 @@ h4{
 
 p.ProjectText{
 	color: black;
+	display: inline-block;
 
+}
+
+img.Project{
+	float: left;
+	width: 12em;
+	margin-right: 2em;
+    border: 1px solid black
 }
 
 #ProjectOne{
